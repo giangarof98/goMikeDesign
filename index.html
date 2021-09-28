@@ -26,9 +26,15 @@
 			<div class="navbar-header">
 				<a class="navbar-brand" href="index.html"><img src="img/logo.webp" alt="Mike's Web Designer Logo" height="40" width="200" /></a>
 
-				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+				<!-- <button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-				</button>
+				</button> -->
+
+				<button name="nav-toggle" id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1" aria-label="toggle">
+					<!-- <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span> -->
+					<i class="fa fa-bars"></i>
+				</button> 
+
 			</div>
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
@@ -203,6 +209,9 @@
 	</div>
 </div>
 <!-- bloc-5-cta END -->
+
+<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+
 
 <!-- Footer - bloc-8 -->
 <div class="bloc bgc-dark-slate-blue d-bloc" id="bloc-8">

@@ -7,6 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+button .fa-bars{
+    font-size: 30px;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -339,7 +343,7 @@ a:hover {
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
-    border: 0px;
+    margin: 0px;
     
 }
 
