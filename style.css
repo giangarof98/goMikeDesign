@@ -5,6 +5,7 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-display: swap;
 }
 
 button .fa-bars{
@@ -288,7 +289,7 @@ a:hover {
 }
 
 #bloc-2-services p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .navbar {
@@ -684,7 +685,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -1067,17 +1068,8 @@ cite{
         width: 180px;
         height: 320px;
     }
-}
 
-/* @media (max-width: 400px) {
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
+    .col-sm-6{
+        margin-bottom: 40px;
     }
 }
-
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
-    }
-} */
