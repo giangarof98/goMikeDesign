@@ -340,11 +340,13 @@ a:hover {
 .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0px;
+    
 }
 
 .navbar-toggle:hover {
     background: transparent!important;
 }
+
 
 .navbar-toggle .icon-bar {
     background-color: rgba(0, 0, 0, .5);
@@ -814,7 +816,8 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #000!important;
+    font-weight: 900;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -1062,7 +1065,7 @@ cite{
     }
 }
 
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
@@ -1073,4 +1076,4 @@ cite{
     .bloc-mob-center-text {
         text-align: center;
     }
-}
+} */
