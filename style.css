@@ -867,6 +867,10 @@ cite{
     margin: auto;
 }
 
+.social{
+    margin-top: 30px;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -1071,5 +1075,9 @@ cite{
 
     .col-sm-6{
         margin-bottom: 40px;
+    }
+
+    .social-icon{
+        margin-bottom: 20px;
     }
 }
